@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <style>
         table,
         tr,
@@ -25,20 +25,27 @@
     <main> 
         <section>
 
-          <audio src="audios/Fignomo - Blue Lola.mp3" controls preload="none"></audio>
+          <audio src="audios/audio1.mp3" controls loop muted></audio>
+          
           <dd><h1>Visitando Paris</h1></dd>
           <p><dd>París, la capital de Francia, es una importante ciudad europea y un centro mundial del arte, la moda, la gastronomía y la cultura. Su paisaje urbano del siglo XIX está entrecruzado por amplios bulevares y el río Sena. Aparte de estos hitos, como la Torre Eiffel y la catedral gótica de Notre Dame del siglo XII, la ciudad es famosa por su cultura del café y las tiendas de moda de diseñador a lo largo de la calle Rue du Faubourg Saint-Honoré   </p></dd>
    
           <figure>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/HZ-9-Uxfqcc?start=84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </figure>
+          <figure>
+                    <p>Aqui hay un video</p>
+                    <video controls poster="imagenes/paris.jpg" width="800" height="450">
+                    <source src="videos/paris.mp4#t=15,20" controls></video>        
+            </video>
+          </figure>
        
           <h2><dd>Gastronomia.</dd></h2>
           <p><dd>Los mejores restaurantes de París fascinan y satisfacen a partes iguales. Y es que, si vienes a esta ciudad, seguro que lo haces también por su gastronomía. No importa si ya conoces a fondo la cocina francesa, adoras las especialidades de todo el mundo, te consideras un sibarita o te gusta disfrutar de un buen aperitivo, las calles de la capital gala están repletas de lugares en los que deleitar el paladar, saciar la sed o hacer ambas cosas a la vez.</dd></p> 
           <h2><dd>Mejores Restaurantes.</dd></h2>
           <figure>
-          <img src="imagenes/restaurante 2.png" alt="una imnagen">
-          <a href="imagenes/" download="imagen.jpeg">descarga</a>
+          <img src="imagenes/restaurante2.png"width="300" height="200" alt="una imnagen">
+          <a href="imagenes/restaurante2.png" download="imagen.jpeg">descarga</a>
           </figure>
           
           <ol>
@@ -49,42 +56,44 @@
            <li >Le Septime</li>
           </ol>
           <p>A continuacion una tabla de los restaurante</p>
-     <table>
-          <thead>
-             <tr>
-                  <th>Restaurantes</th>
-                  <th>Ubicacion</th>
-                <th>Calificacion</th>
-             </tr>
-           </thead>
-          <tbody>
-              <tr>
-                  <td>le sof l' y laisse</td>
-                  <td>70 Rue Alexandre Dumas, 75011 Paris, Francia</td>
-                  <td>5</td>
-              </tr>
-              <tr>
-                  <td>Au Petit Rozey</td>
-                  <td>43 Rue Lemercier, 75017 Paris, Francia</td>
-                  <td>4</td>
-              </tr>
-             <tr>
-                  <td>Le Zébulon</td>
-                  <td>10 Rue de Richelieu, 75001 Paris, Francia</td>
-                  <td>5</td>
-             </tr>
-              <tr>
-                  <td>Signature, de Pierre Sang</td>
-                  <td>6 Rue Gambey, 75011 Paris, Francia</td>
-                  <td>4.5</td>
-              </tr>
-             <tr>
-                 <td>Le Septime</td>
-                 <td>80 Rue de Charonne, 75011 Paris, Francia</td>
-                 <td>4</td>
-             </tr>
-         </tbody>
-     </table>
+            <table>
+                <thead>
+                   <tr>
+                       <th colspan="2">Nombre y Ubicacion</th>
+                      <th>Calificacion</th>
+                   </tr>
+                 </thead>
+                <tbody>
+      
+                    <tr>
+                        <td>le sof l' y laisse</td>
+                        <td>70 Rue Alexandre Dumas, 75011 Paris, Francia</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Au Petit Rozey</td>
+                        <td>43 Rue Lemercier, 75017 Paris, Francia</td>
+                        <td>4</td>
+                    </tr>
+                   <tr>
+                        <td>Le Zébulon</td>
+                        <td>10 Rue de Richelieu, 75001 Paris, Francia</td>
+                        <td>5</td>
+                   </tr>
+                    <tr>
+                        <td>Signature, de Pierre Sang</td>
+                        <td>6 Rue Gambey, 75011 Paris, Francia</td>
+                        <td rowspan="2"> 5</td>
+                    </tr>
+                    </tr>
+                   <tr>
+                       <td>Le Septime</td>
+                       <td>80 Rue de Charonne, 75011 Paris, Francia</td>
+                        <td rowspan="2"></td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>       
           <h2><dd>Lugares Turisticos</dd></h2>
           <p>Conocida como la Ciudad del Amor, la capital de Francia es perfecta para dar largos paseos románticos por la orilla del Sena o por los barrios de Montmartre y Le Marais y visitar algunos de los monumentos más famosos del mundo como la Torre Eiffel, el Louvre, la Sainte Chapelle o la malograda Catedral de Notre Dame, que esperemos que pronto vuelva a brillar.</p>
           <ul>

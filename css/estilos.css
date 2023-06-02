@@ -1,0 +1,65 @@
+body {
+    background-color:#333333cc;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 35px;
+    
+  }
+ 
+  h1{
+    text-decoration:underline;
+    text-align: center;
+    color: mediumpurple;
+    font-family:fantasy;
+ }
+ 
+  h2 {
+     color:mediumpurple;
+     text-align: center;
+     font-weight: bold;
+ 
+  }
+ 
+  p{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:justify;
+     font-size: medium;
+     font-style: oblique;
+     
+  }
+      
+ figure{
+   text-align: center;
+ }
+ 
+ img:hover {
+    width: 600px;
+    height: 400px;
+    border: dotted blue;
+
+ }
+ 
+  ul:hover {
+    list-style-type:none;
+    list-style-image:url(../imagenes/corazon.png);
+  }
+  
+  ol {
+    color: mediumslateblue;
+ 
+  }
+ 
+  h2 >a {
+    background-color: mediumpurple;
+    display:inline-block;
+    color:beige;
+    padding: 10px;
+    margin: 20px 40px 70px 100px;
+    text-align:left;
+ }
+ 
+ h3{
+    text-decoration:underline;
+    text-align: center;
+    color: mediumpurple;
+ }
