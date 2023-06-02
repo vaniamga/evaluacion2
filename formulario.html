@@ -10,148 +10,48 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
         <title>Document</title>
-        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <forma action="ejemplo.js">
+         <h1>GRACIAS POR VISITAR MI PAGINA</h1>
+         <h4>Nos ayudarias con tu comentario</h4>
+        <form action="ejemplo.js">
           <fieldset>
-            <legend>usuario</legend>
+            <legend>Comentarios</legend>
     
-            <input type="text" size="40">
-            <input type="text" size="30">
-            <p class="texto">
-                Nombre
-                <input type="text" size="40" title="Esto es un ejemplo" name="Nombre" id="Nombre" value="" required>
-            </p>
-            <p class="text"> 
-                Apellido
+            <br><br>
+            <label  for="nombre">Nombre</label>
+               <input type="text" size="40" title="Esto es un ejemplo" name="Nombre" id="Nombre" value="" required>
+
+            <br><br>
+            <label  for="apellido">Apellido</label>
                 <input type="text" name="apellido" id="apellido" placeholder="apellido" required>
-            </p>
-            <p class="texto" >
-                contraseña
-            <input type="text" minlength="10" maxlength="15">
-    
-            </p>
-    
-            <input type="submit">
-        </fieldset>
-    
-        <fieldset>
-            <legend class="texto">Datos</legend>
-    
-            <p class="text">
-                usuario
-                <input type="text" placeholder="usuario">
-            </p>
-            <p class="text">
-                contraseña
-                <input type="password" placeholder="contraseña" title="4-8 caracteres">
-            </p>
-            <p class="texto">
-                correo electronico
+
+            <br><br>
+            <label  for="email">correo</label>
                 <input type="email" placeholder="info@ejemplo">
-            </p>
-            <p class="texto">
-                Fecha y hora
-                <input type="datetime-local">
-            </p>
-            <p class="text">
-                Edad
-                <input type="number" min="18" max="30">
-            </p>
-            <p class="text">
-                telefono
-                <input type="tel">
-            </p>
-            <p class="text">
-                Nota
-                <input type="number" min="0" max="5" step="any">
-            </p>
-            <p class="text">
-                option multiple
-                <input type="radio" name="respuesta" value="0" required> Option 1
-                <input type="radio" name="respuesta" value="2"> Option 2
-            </p>
-            <p class="texto">
-                Casillas
-                <input type="checkbox" value="Hola"> Casilla 1
-                <input type="checkbox"> Casilla 2
-                <input type="checkbox" checked> Casilla 3
-            </p>
-            <p class="text">
-                color favorito
-                <input type="color" valor="#ff0000">
-            </p>
-            <p class="texto">
-                Archivo
-                <input type="file" accept=".jpg, .pdf">
-            </p>
-            <p class="text">
-                Calificacion
-                <input type="range" min="0" max="6" step="2">
-                </p>
-                <p class="text">
-                    Calificacion
-                <input type="range" min="0" max="5" list="lista-rango">
-                <datalist id="lista-rango">
-                    <option value="malo"></option>
-                    <option value="malo"></option>
-                    <option value="malo"></option>
-                    <option value="bueno"></option>
-                </datalist> 
-            </p>
-            <p class="text">
-                observaciones
-                <textarea name="" id="" cols="30" rows="2" placeholder="valor de ejemplo"></textarea>
-            </p>
-            <p class="text">
-                Lista desplegable
-                <select name="" id="">
-                    <option value="null" selected>...</option>
-                    <option value="1">Uno</option>
-                    <option value="2">Dos</option>
-                    <option value="3">Tres</option>
-                </select>
-            </p>
-            <p class="text">
-                Lista desplegable
-                <select name="" id="">
-                    <option value="null" selected>...</option>
-                    <optgroup label="grupo 1">
-                    <option value="1">Uno</option>
-                    <option value="2">Dos</option>
-                    <option value="3">Tres</option>
-                </optgroup>
-                <optgroup label="grupo 2">
-                        <option value="1">Uno</option>
-                        <option value="2">Dos</option>
-                        <option value="3">Tres</option>
-                    </optgroup>
-                </select>
-            </p>
+
+            <br><br>
+            <label  for="range">Calificacion</label>
+            <input type="range" min="0" max="5" list="lista-rango">
+            <datalist id="lista-rango">
+                <option value="malo"></option>
+                <option value="malo"></option>
+                <option value="malo"></option>
+                <option value="bueno"></option>
+            </datalist> 
+            <br><br>
+            <label for="cometario">Cometario</label>
+            <br>
+            <textarea name="" id="cometario" cols="50" rows="10"></textarea>
     
-            
-            
-            <label for="hola" class="text">
-                hola
-                <input type="checkbox" value="" id="hola">
-            </label>
-            <label for="nombre1" class="text">
-                Nombre
-                <input type="text" id="nombre1">
-            </label>
-        </fieldset>
-    
-    
-    
-        <input type="submit" value="Hola">
-        <input type="reset" value="borrar">
-    
-        <button type="reset"> esto es un boton</button>
-        <button>
-            <img  src="imagenes/perrito.png" alt="">
-        </button>
-    , initial-scale=1.0">
+            <br><br>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+          </fieldset>
+        </form>
+        
+
     <title>Document</title>
 </head>
 <body>
