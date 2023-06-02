@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        table,
+        tr,
+        td {
+            border: 4px solid mediumblue;
+            color: black;
+        }
+        th{
+            border: 4px;
+        }
+        thead{
+            background-color: mediumpurple;
+        }
+    </style>   
 </head>
 <body>
     <main> 
@@ -34,9 +48,46 @@
            <li >Signature, de Pierre Sang</li>
            <li >Le Septime</li>
           </ol>
+          <p>A continuacion una tabla de los restaurante</p>
+    <table>
+          <thead>
+             <tr>
+                  <th>restaurantes</th>
+                  <th>ubicavcion</th>
+                <th>Calificacion</th>
+             </tr>
+           </thead>
+          <tbody>
+              <tr>
+                  <td>le sof l' y laisse</td>
+                  <td>70 Rue Alexandre Dumas, 75011 Paris, Francia</td>
+                  <td>5</td>
+              </tr>
+              <tr>
+                  <td>Au Petit Rozey</td>
+                  <td>43 Rue Lemercier, 75017 Paris, Francia</td>
+                  <td>4</td>
+              </tr>
+             <tr>
+                  <td>Le Zébulon</td>
+                  <td>10 Rue de Richelieu, 75001 Paris, Francia</td>
+                  <td>5</td>
+             </tr>
+              <tr>
+                  <td>Signature, de Pierre Sang</td>
+                  <td>6 Rue Gambey, 75011 Paris, Francia</td>
+                  <td>4.5</td>
+              </tr>
+             <tr>
+                 <td>Le Septime</td>
+                 <td>80 Rue de Charonne, 75011 Paris, Francia</td>
+                 <td>4</td>
+             </tr>
+         </tbody>
+    </table>
           <h2><dd>Lugares Turisticos</dd></h2>
           <p>Conocida como la Ciudad del Amor, la capital de Francia es perfecta para dar largos paseos románticos por la orilla del Sena o por los barrios de Montmartre y Le Marais y visitar algunos de los monumentos más famosos del mundo como la Torre Eiffel, el Louvre, la Sainte Chapelle o la malograda Catedral de Notre Dame, que esperemos que pronto vuelva a brillar.</p>
-          <ul>
+          <ul class="icon-list">
            <li > Plaza de Trocadero</li>
            <li >Torre Eiffel, uno de los lugares que ver en París</li>
            <li >El Louvre</li>
@@ -47,7 +98,7 @@
           <iframe src="https://es.wikipedia.org/wiki/Par%C3%ADs" frameborder="0"></iframe>
          </section>
          </main>
-        <footer>
+         <footer>
            <h3>contacto</h3>
            <h2>
             <a href="https://www.facebook.com/gallardom.vania" target="_blank">facebook</a>

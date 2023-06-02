@@ -2,7 +2,7 @@ body {
     background-color:#333;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 35px;
+    
   }
  
   h1{
@@ -36,9 +36,9 @@ body {
     border: 5px solid mediumslateblue;
   }
  
-  ul:hover{
+  ul:hover {
     list-style-type:none;
-    list-style-image:url(../css/imagenes/corazon\ \(1\).png);
+    list-style-image: url ('../evaluacion2/imagenes/corazon\ \(1\).png');
   }
   
   ol {
