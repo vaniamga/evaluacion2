@@ -31,8 +31,9 @@ body {
       
  figure{
    text-align: center;
+   
  }
- 
+
  img:hover {
     width: 600px;
     height: 400px;
@@ -53,10 +54,12 @@ body {
   h2 >a {
     background-color: mediumpurple;
     display:inline-block;
-    color:beige;
-    padding: 10px;
-    margin: 20px 40px 70px 100px;
+    color:blue;
+    padding: 5px;
     text-align:left;
+    border: none;
+    border-radius: 5px;
+    font-size:medium;
  }
  
  h3{
