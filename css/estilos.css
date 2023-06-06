@@ -2,8 +2,13 @@ body {
     background-color:#333333fb;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 35px;
-    
+    margin: 0;
+    padding: 0; 
+  }
+
+  main{
+   margin: 35px;
+   padding: 20px 15%;
   }
  
   h1{
@@ -11,9 +16,11 @@ body {
     text-align: center;
     color: mediumpurple;
     font-family:fantasy;
+    padding: 30px;
  }
  
   h2 {
+      padding: 30px;
      color:mediumpurple;
      text-align: center;
      font-weight: bold;
@@ -63,7 +70,12 @@ body {
  }
  
  h3{
+    padding: 30px;
     text-decoration:underline;
     text-align: center;
     color: mediumpurple;
  }
+
+  
+  
+  

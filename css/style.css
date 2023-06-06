@@ -1,7 +1,22 @@
 
 body{
-    background-color: blueviolet;
+    background-color: mediumpurple;
+    
 
+}
+
+form{
+background-color: grey;
+margin:10px 350px;
+text-align: center;
+padding: 30px 20px;
+border-radius: 10px;
+color: white;
+}
+
+legend {
+    font-size:large;
+    text-align: left;
 }
 
 h1{
@@ -13,8 +28,18 @@ h4{
     text-align: center;
 }
 
-img{
-    max-width: 400px;
-    max-height: 200px;
+header >a {
+    color: blanchedalmond;
 }
-    
+
+.boton{
+    background-color: blueviolet;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size:medium;
+}
+
+ .boton:hover{
+    background-color: plum;
+ }  
